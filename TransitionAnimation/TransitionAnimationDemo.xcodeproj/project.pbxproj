@@ -9,6 +9,13 @@
 /* Begin PBXBuildFile section */
 		EDCF05DF1DFF9D510024FBFE /* PresentTransion.m in Sources */ = {isa = PBXBuildFile; fileRef = EDCF05DE1DFF9D510024FBFE /* PresentTransion.m */; };
 		EDCF05E21DFFA5E90024FBFE /* DismissTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = EDCF05E11DFFA5E90024FBFE /* DismissTransition.m */; };
+		EDCF05E61DFFC8810024FBFE /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDCF05E41DFFC8810024FBFE /* ListViewController.m */; };
+		EDCF05E71DFFC8810024FBFE /* ListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDCF05E51DFFC8810024FBFE /* ListViewController.xib */; };
+		EDCF05EB1DFFC8910024FBFE /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDCF05E91DFFC8910024FBFE /* DetailViewController.m */; };
+		EDCF05EC1DFFC8910024FBFE /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDCF05EA1DFFC8910024FBFE /* DetailViewController.xib */; };
+		EDCF05F21DFFC8C80024FBFE /* ClickCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EDCF05EE1DFFC8C80024FBFE /* ClickCell.m */; };
+		EDCF05F31DFFC8C80024FBFE /* ClickCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDCF05EF1DFFC8C80024FBFE /* ClickCell.xib */; };
+		EDCF05F41DFFC8C80024FBFE /* PushTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = EDCF05F11DFFC8C80024FBFE /* PushTransition.m */; };
 		EDF55C961DFF98F400297F4C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF55C951DFF98F400297F4C /* main.m */; };
 		EDF55C991DFF98F400297F4C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF55C981DFF98F400297F4C /* AppDelegate.m */; };
 		EDF55C9F1DFF98F400297F4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDF55C9D1DFF98F400297F4C /* Main.storyboard */; };
@@ -44,6 +51,17 @@
 		EDCF05DE1DFF9D510024FBFE /* PresentTransion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentTransion.m; sourceTree = "<group>"; };
 		EDCF05E01DFFA5E90024FBFE /* DismissTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DismissTransition.h; sourceTree = "<group>"; };
 		EDCF05E11DFFA5E90024FBFE /* DismissTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DismissTransition.m; sourceTree = "<group>"; };
+		EDCF05E31DFFC8810024FBFE /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		EDCF05E41DFFC8810024FBFE /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		EDCF05E51DFFC8810024FBFE /* ListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListViewController.xib; sourceTree = "<group>"; };
+		EDCF05E81DFFC8910024FBFE /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		EDCF05E91DFFC8910024FBFE /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		EDCF05EA1DFFC8910024FBFE /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		EDCF05ED1DFFC8C80024FBFE /* ClickCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClickCell.h; sourceTree = "<group>"; };
+		EDCF05EE1DFFC8C80024FBFE /* ClickCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClickCell.m; sourceTree = "<group>"; };
+		EDCF05EF1DFFC8C80024FBFE /* ClickCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ClickCell.xib; sourceTree = "<group>"; };
+		EDCF05F01DFFC8C80024FBFE /* PushTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushTransition.h; sourceTree = "<group>"; };
+		EDCF05F11DFFC8C80024FBFE /* PushTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushTransition.m; sourceTree = "<group>"; };
 		EDF55C911DFF98F400297F4C /* TransitionAnimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TransitionAnimationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDF55C951DFF98F400297F4C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EDF55C971DFF98F400297F4C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -126,6 +144,17 @@
 				EDF55CCF1DFF9A1100297F4C /* FirstViewController.xib */,
 				EDF55CCA1DFF99E500297F4C /* SecondViewController.h */,
 				EDF55CCB1DFF99E500297F4C /* SecondViewController.m */,
+				EDCF05F01DFFC8C80024FBFE /* PushTransition.h */,
+				EDCF05F11DFFC8C80024FBFE /* PushTransition.m */,
+				EDCF05E31DFFC8810024FBFE /* ListViewController.h */,
+				EDCF05E41DFFC8810024FBFE /* ListViewController.m */,
+				EDCF05E51DFFC8810024FBFE /* ListViewController.xib */,
+				EDCF05ED1DFFC8C80024FBFE /* ClickCell.h */,
+				EDCF05EE1DFFC8C80024FBFE /* ClickCell.m */,
+				EDCF05EF1DFFC8C80024FBFE /* ClickCell.xib */,
+				EDCF05E81DFFC8910024FBFE /* DetailViewController.h */,
+				EDCF05E91DFFC8910024FBFE /* DetailViewController.m */,
+				EDCF05EA1DFFC8910024FBFE /* DetailViewController.xib */,
 				EDF55C9D1DFF98F400297F4C /* Main.storyboard */,
 				EDF55CA01DFF98F400297F4C /* Assets.xcassets */,
 				EDF55CA21DFF98F400297F4C /* LaunchScreen.storyboard */,
@@ -272,6 +301,9 @@
 			files = (
 				EDF55CA41DFF98F400297F4C /* LaunchScreen.storyboard in Resources */,
 				EDF55CA11DFF98F400297F4C /* Assets.xcassets in Resources */,
+				EDCF05EC1DFFC8910024FBFE /* DetailViewController.xib in Resources */,
+				EDCF05E71DFFC8810024FBFE /* ListViewController.xib in Resources */,
+				EDCF05F31DFFC8C80024FBFE /* ClickCell.xib in Resources */,
 				EDF55C9F1DFF98F400297F4C /* Main.storyboard in Resources */,
 				EDF55CD11DFF9A1100297F4C /* FirstViewController.xib in Resources */,
 				EDF55CD31DFF9A7C00297F4C /* 1.png in Resources */,
@@ -301,9 +333,13 @@
 			files = (
 				EDF55CCC1DFF99E500297F4C /* SecondViewController.m in Sources */,
 				EDF55C991DFF98F400297F4C /* AppDelegate.m in Sources */,
+				EDCF05F21DFFC8C80024FBFE /* ClickCell.m in Sources */,
+				EDCF05E61DFFC8810024FBFE /* ListViewController.m in Sources */,
+				EDCF05EB1DFFC8910024FBFE /* DetailViewController.m in Sources */,
 				EDCF05DF1DFF9D510024FBFE /* PresentTransion.m in Sources */,
 				EDCF05E21DFFA5E90024FBFE /* DismissTransition.m in Sources */,
 				EDF55C961DFF98F400297F4C /* main.m in Sources */,
+				EDCF05F41DFFC8C80024FBFE /* PushTransition.m in Sources */,
 				EDF55CD01DFF9A1100297F4C /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

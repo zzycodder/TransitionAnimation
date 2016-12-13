@@ -11,7 +11,7 @@
 #import "PresentTransion.h"
 #import "DismissTransition.h"
 
-@interface FirstViewController ()
+@interface FirstViewController ()<UIViewControllerTransitioningDelegate>
 
 @end
 
@@ -41,11 +41,8 @@
 - (IBAction)beginAnimation:(id)sender {
     
     SecondViewController *toVC = [[SecondViewController alloc] init];
-    
     toVC.transitioningDelegate = self;
     [self presentViewController:toVC animated:YES completion:nil];
-    
-
     
 }
 

@@ -58,6 +58,7 @@
                 <constraint firstAttribute="bottom" secondItem="iXw-oq-djD" secondAttribute="bottom" id="Cgl-ai-h7a"/>
                 <constraint firstItem="iXw-oq-djD" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="fmB-i5-1Up"/>
             </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
         </view>
     </objects>
     <resources>

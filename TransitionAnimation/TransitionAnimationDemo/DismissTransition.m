@@ -19,7 +19,6 @@
 {
     UINavigationController *nav = (UINavigationController *)[transitionContext viewControllerForKey:UITransitionContextToViewControllerKey];
     
-    
     FirstViewController *toVC = (FirstViewController *)nav.topViewController;
     
     SecondViewController *fromVC = (SecondViewController *)[transitionContext  viewControllerForKey:UITransitionContextFromViewControllerKey];
